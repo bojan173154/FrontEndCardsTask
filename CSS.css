@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+}
+
+.cards {
+    float: left;
+    width: 25%;
+    padding: 20px;
+    border-style: groove;
+    height: 700px;
+
+}
+
+#main:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+    .cards {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .cards {
+        width: 100%;
+    }
+}
+
+.img {
+    height: 250px;
+    width: 100%;
+}
+
+.socials {
+    float: right;
+    margin-top: 3%;
+    margin-right: 2%;
+    height: 25px;
+    width: 25px;
+}
+
+.profiles {
+    float: left;
+    margin-left: 2%;
+    margin-top: 3%;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+}
+
+.header {
+    margin-left: 20%;
+}
+
+.para {
+    height: 150px;
+    overflow: hidden;
+}
+
+.line {
+    border-bottom: 1px solid lightslategrey;
+    width: 100%;
+}
+
+.footer {
+    display: inline;
+
+}
+.footerContainer{
+    margin-top: 5%;
+}
+#btn{
+    background-color: mediumblue;
+    color: white;
+    width: 150px;
+    height: 70px;
+    border-radius: 8px;
+    font-size: 25px;
+    cursor: pointer;
+}
+#container{
+    text-align: center;
+    margin-top: 4%;
+}
+.contentContainer{
+    height: 500px;
+}
+
+object{
+    pointer-events: none;
+}
